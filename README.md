@@ -9,8 +9,8 @@
 ## Solution Overview
 * I have built out a basic employee onboarding pipeline in AD. I set up and implemented RBAC and ensured users were given access ONLY according to their role and nothing more (least privilege). I also simulated a mock ticket where a user was provisioned with the incorrect level of access!
   - My job was to rebuild their environment from scratch.
-  - I created a Microsoft Azure virtually hosted domain called NMG.com, organized departments with OUs, and created their respective department's Security Groups
-  - I onboarded new hires, assigned to them to the correct OU and Security Group
+  - I created a Microsoft Azure virtually hosted domain called NMG.com, organized departments with OUs, and created their respective department's Security Groups.
+  - I onboarded new hires, assigned to them to the correct OU and Security Group.
   - I resolved a support issue, and documented/explained every step along the way.
 
 ## Video Walkthrough
