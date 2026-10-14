@@ -11,5 +11,5 @@ Issue Reported: Unable to access HR shared resources. Desktop policies and mappe
 Root Cause: This issue occured because Jane Cooper was plced inside the wrong OU and Security Group. This led to her being granted the wrong scope of access.
 Fix Applied: To fix this issue I simply moved Jane Cooper into the correct OU for HR. I also changed her security group to HR-Users. 
 Verification: I confirmed the issue was resolved by reviewing the OU and Security Group Members List and taking screenshots. 
-Date Recieved: 10/07/2026
+Date Recieved: 10/11/2026
 Resolved By: Kyle Davis
