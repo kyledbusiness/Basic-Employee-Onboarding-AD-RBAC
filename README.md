@@ -1,7 +1,7 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* Northstar Medical Group is a fast growing healthcare system who delegated their identity lifecycle (JML) workflow to a third-party MSP. In the beginning this was fine. But as they grew, the issues started to build up. They had NO RBAC policy in place. Users were assigned access AD-HOC. There were NO audit trials, as well as HIPAA risks.
+* Northstar Medical Group is a fast growing healthcare system who delegated their identity lifecycle (JML) workflow to a third-party MSP. In the beginning this was fine. But as they grew, the issues started to build up. They had NO RBAC policy in place. Users were assigned access AD-HOC. There were NO audit trails, as well as HIPAA risks.
   - New employees are being added manually.
   - Departments are NOT clearly labeled or organized.
   - Access assignments are inconsistent.  
@@ -14,7 +14,7 @@
   - I resolved a support issue, and documented/explained every step along the way.
 
 ## Video Walkthrough
-
+https://www.loom.com/share/6f4949856e094876a72201384ee10c48
 
 ## Tools Used
 * Windows Server 2025
@@ -33,5 +33,5 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* Created departmental OU structure and security groups
+* Created departmental OU structure, security groups, and 15 users with a consistent naming convention and attribute standards 
 * Investigated incident, resolved and documented
