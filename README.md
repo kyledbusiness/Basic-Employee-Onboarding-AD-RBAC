@@ -1,19 +1,26 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* Northstar Medical Group is a fast growing healthcare system who delegated their identity lifecycle (JML) workflow to a third-party MSP. In the beginning this was fine. But as they grew, the issues started to build up. They had NO RBAC policy in place. Users were assigned access AD-HOC. There were NO audit trials, as well as HIPAA risks.
+  - New employees are being added manually.
+  - Departments are NOT clearly labeled or organized.
+  - Access assignments are inconsistent.  
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* I have built out a basic employee onboarding pipeline in AD. I set up and implemented RBAC and ensured users were given access ONLY according to their role and nothing more (least privilege). I also simulated a mock ticket where a user was provisioned with the incorrect level of access!
+  - My job was to rebuild their environment from scratch.
+  - I created a Microsoft Azure virtually hosted domain called NMG.com, organized departments with OUs, and created their respective department's Security Groups
+  - I onboarded new hires, assigned to them to the correct OU and Security Group
+  - I resolved a support issue, and documented/explained every step along the way.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
 
 ## Tools Used
-* Windows Server
+* Windows Server 2025
 * Active Directory Domain Services
-* VirtualBox
-* UTM
+* Microsoft Azure
+* Compute infrastructure | Virtual machines
 * RBAC
 * GitHub
 
@@ -26,5 +33,5 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Created departmental OU structure and security groups
+* Investigated incident, resolved and documented
