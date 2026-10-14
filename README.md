@@ -14,7 +14,7 @@
   - I resolved a support issue, and documented/explained every step along the way.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+
 
 ## Tools Used
 * Windows Server 2025
