@@ -1,5 +1,8 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
+## Video Walkthrough
+https://www.loom.com/share/6f4949856e094876a72201384ee10c48
+
 ## Problem Statement
 * Northstar Medical Group is a fast growing healthcare system who delegated their identity lifecycle (JML) workflow to a third-party MSP. In the beginning this was fine. But as they grew, the issues started to build up. They had NO RBAC policy in place. Users were assigned access AD-HOC. There were NO audit trails, as well as HIPAA risks.
   - New employees are being added manually.
@@ -12,9 +15,6 @@
   - I created a Microsoft Azure virtually hosted domain called NMG.com, organized departments with OUs, and created their respective department's Security Groups.
   - I onboarded new hires, assigned to them to the correct OU and Security Group.
   - I resolved a support issue, and documented/explained every step along the way.
-
-## Video Walkthrough
-https://www.loom.com/share/6f4949856e094876a72201384ee10c48
 
 ## Tools Used
 * Windows Server 2025
