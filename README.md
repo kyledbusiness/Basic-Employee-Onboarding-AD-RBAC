@@ -1,6 +1,5 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
-## Video Walkthrough
 [Watch the 7-minute project breakdown](https://www.loom.com/share/6f4949856e094876a72201384ee10c48)
 
 ## Problem Statement
